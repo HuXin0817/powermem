@@ -1,0 +1,20 @@
+{
+  "llm": {
+    "provider": "qwen",
+    "config": {
+      "api_key": "your_qwen_api_key",
+      "model": "qwen-plus"
+    }
+  },
+  "embedder": {
+    "provider": "qwen",
+    "config": {
+      "api_key": "your_qwen_api_key",
+      "model": "text-embedding-v4"
+    }
+  },
+  "vector_store": {
+    "provider": "oceanbase",
+    "config": {}
+  }
+}
